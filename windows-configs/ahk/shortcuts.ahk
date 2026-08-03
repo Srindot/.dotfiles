@@ -64,8 +64,8 @@ ManageKomorebiState(action) {
 +!BackSpace::Send "^{Delete}"
 
 ; App Launchers (Win + E, B, N, C, T)
-#e::Run('wt.exe -p "Arch" wsl.exe bash -ic "yazi"', UserProfile)
-#+e::Run("explorer.exe", UserProfile)
+; #e::Run('wt.exe -p "Arch" wsl.exe bash -ic "yazi"', UserProfile)
+#e::Run("explorer.exe", UserProfile)
 #b::Run("vivaldi.exe")
 #n::Run(UserProfile . "\AppData\Local\Programs\Obsidian\Obsidian.exe")
 ; #c::Run("powershell.exe", UserProfile)
