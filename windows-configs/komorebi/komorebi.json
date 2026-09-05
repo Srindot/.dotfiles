@@ -78,31 +78,31 @@
     {
       "workspaces": [
         {
-          "name": "I",
+          "name": "0",
           "layout": "Grid"
         },
         {
-          "name": "II",
+          "name": "1",
           "layout": "Grid"
         },
         {
-          "name": "III",
+          "name": "2",
           "layout": "Grid"
         },
         {
-          "name": "IV",
+          "name": "3",
           "layout": "Grid"
         },
         {
-          "name": "V",
+          "name": "4",
           "layout": "Grid"
         },
         {
-          "name": "VI",
+          "name": "5",
           "layout": "Grid"
         },
         {
-          "name": "VII",
+          "name": "6",
           "layout": "Grid"
         }
       ]

@@ -66,6 +66,7 @@ ManageKomorebiState(action) {
 ; App Launchers (Win + E, B, N, C, T)
 ; #e::Run('wt.exe -p "Arch" wsl.exe bash -ic "yazi"', UserProfile)
 #e::Run("explorer.exe", UserProfile)
+#+e::Run('wt.exe -p "Windows PowerShell" powershell.exe -NoExit -Command "yazi"', UserProfile)
 #b::Run("vivaldi.exe")
 #n::Run(UserProfile . "\AppData\Local\Programs\Obsidian\Obsidian.exe")
 ; #c::Run("powershell.exe", UserProfile)
@@ -276,8 +277,6 @@ z & l:: Send "+{Right}"
 #5::Komorebic("focus-workspace 4")
 #6::Komorebic("focus-workspace 5")
 #7::Komorebic("focus-workspace 6")
-#8::Komorebic("focus-workspace 7")
-#9::Komorebic("focus-workspace 8")
 
 #+1::Komorebic("move-to-workspace 0")
 #+2::Komorebic("move-to-workspace 1")
@@ -286,8 +285,6 @@ z & l:: Send "+{Right}"
 #+5::Komorebic("move-to-workspace 4")
 #+6::Komorebic("move-to-workspace 5")
 #+7::Komorebic("move-to-workspace 6")
-#+8::Komorebic("move-to-workspace 7")
-#+9::Komorebic("move-to-workspace 8")
 
 ; Screenshot Tool
 ~#+s:: {

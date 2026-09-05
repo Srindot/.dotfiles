@@ -7226,3 +7226,24 @@ RuntimeError: wrapped C/C++ object of type AudioOutputService has been deleted
 2026-09-05 06:00:16,191 [DEBUG] [MainThread] [systray_widget/systray.py:508]: Saving state to C:\Users\Srinath\AppData\Local\YASB\systray_state_ACERTECHNOLOGIESVG271UM31322131231233.json
 2026-09-05 06:00:16,194 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 459772
 2026-09-05 06:00:16,203 [INFO] [Dummy-4] [root/event_listener.py:92]: Attempting to reconnect to Komorebi...
+2026-09-05 06:04:09,616 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.5
+2026-09-05 06:04:09,619 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2026-09-05 06:04:09,619 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2026-09-05 06:04:11,313 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2026-09-05 06:04:12,468 [INFO] [MainThread] [root/bar_manager.py:85]: Starting WindowsNotificationEventListener...
+2026-09-05 06:04:12,469 [INFO] [MainThread] [root/bar_manager.py:85]: Starting SystemEventListener...
+2026-09-05 06:04:12,470 [INFO] [MainThread] [root/bar_manager.py:85]: Starting KomorebiEventListener...
+2026-09-05 06:04:12,471 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\Srinath\.config\yasb
+2026-09-05 06:04:12,473 [INFO] [Dummy-6] [root/event_listener.py:51]: Created named pipe yasb-842a28ec-a8c1-11f1-8634-b48c9d368940
+2026-09-05 06:04:12,634 [INFO] [MainThread] [root/update_service.py:404]: Background update checker started
+2026-09-05 06:04:12,634 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-09-05 06:04:12,668 [DEBUG] [Dummy-9] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-09-05 06:04:12,689 [DEBUG] [MainThread] [systray_widget/systray.py:526]: Loading state from C:\Users\Srinath\AppData\Local\YASB\systray_state_ACERTECHNOLOGIESVG271UM31322131231233.json
+2026-09-05 06:04:12,701 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2026-09-05 06:04:13,010 [DEBUG] [MainThread] [systray_widget/systray.py:277]: Systray thread started
+2026-09-05 06:04:13,246 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:164]: Adding TaskbandHWND prop to hwnd 132382
+2026-09-05 06:04:13,256 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:242]: Finding real tray hwnd
+2026-09-05 06:04:13,260 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:157]: Sending TaskbarCreated message: 49367
+2026-09-05 06:04:13,324 [ERROR] [UpdateChecker] [root/update_service.py:271]: GitHub API HTTP error: 403 rate limit exceeded
+2026-09-05 06:04:13,324 [WARNING] [UpdateChecker] [root/update_service.py:400]: Background update check failed: HTTP Error 403: rate limit exceeded
+2026-09-05 06:56:19,471 [INFO] [Dummy-6] [root/event_listener.py:125]: Komorebi connected to named pipe: yasb-842a28ec-a8c1-11f1-8634-b48c9d368940
