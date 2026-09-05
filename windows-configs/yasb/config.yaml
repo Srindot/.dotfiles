@@ -37,7 +37,7 @@ bars:
     widgets:
       left: ["komorebi_workspaces","active_window"]
       center: ["pomodoro","cava","clock","media"]
-      right: ["system_tray","cpu","gpu","memory","brightness","volume","battery","notifications","wifi","power_menu"]
+      right: ["system_tray","cpu","gpu","memory","brightness","volume","battery","notifications","wifi","ubuntu_boot","power_menu"]
 widgets:
   cava:
     type: "yasb.cava.CavaWidget"
@@ -311,6 +311,16 @@ widgets:
           restart: ["\uead2","Restart"]
           hibernate: ["\uf28e","Hibernate"]
           cancel: ["\udb81\udf3a","Cancel"]
+  ubuntu_boot:
+      type: "yasb.custom.CustomWidget"
+      options:
+        label: "Ubuntu"
+        label_alt: "Reboot to Windows recovery"
+        class_name: "ubuntu-boot"
+        tooltip: true
+        callbacks:
+          on_left: "exec cmd /c shutdown /r /o /f /t 0"
+          on_right: "do_nothing"
   custom_button:
       type: "yasb.custom.CustomWidget"
       options:

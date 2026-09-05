@@ -142,6 +142,19 @@
     font-size: 16px;
 }
 
+.ubuntu-boot {
+    padding: 0 8px;
+}
+
+.ubuntu-boot .label {
+    color: var(--green);
+    font-size: 11px;
+}
+
+.ubuntu-boot:hover .label {
+    color: var(--teal);
+}
+
 .power-menu-popup .button {
     padding: 0;
     width: 160px;
