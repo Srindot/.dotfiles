@@ -121,8 +121,8 @@ ManageKomorebiState(action) {
 
     ; --- STATE: KOMOREBI ON (Swap Tiles) ---
     if ProcessExist("komorebi.exe") {
-        Threshold := 80 
-        Cooldown := 250
+        Threshold := 120 
+        Cooldown := 350
         while GetKeyState("LButton", "P") {
             MouseGetPos(&curX, &curY)
             diffX := curX - startX

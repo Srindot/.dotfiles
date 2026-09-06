@@ -7,7 +7,7 @@
     "fps": 120,
     "style": "EaseOutSine"
   },
-  "window_hiding_behaviour": "Minimize",
+  "window_hiding_behaviour": "Cloak",
   "cross_monitor_move_behaviour": "Insert",
   "default_workspace_padding": 10,
   "default_container_padding": 10,
